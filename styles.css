@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background-color: #333550;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    padding: 1rem;
+    color: wheat;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.navbar .menu {
+    padding: 1rem;
+}
+
+.navbar .menu a{
+    color: white;
+    padding: 1rem;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.navbar .menu a:hover{
+    text-decoration: underline;
+}
+
+.bar{
+    width: 100%;
+}
+
+.ima{
+    width: 1rem;
+}
+
+
+
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.searchtext{
+    padding: 1%;
+    font-size: 120%;
+    color: #8b6a21;
+}
+
+#input {
+    padding: 1rem;
+    width: 50%;
+    height: 10%;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 15pc;
+    background-color: antiquewhite;
+    border-radius: 2%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+svg {
+    position:  absolute;
+    width: 2rem;
+    top: 0rem;
+    right: 0rem;
+    z-index:1;
+    color: #333;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.name_and_price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 1%;
+    font-size: 0.7em;
+    color: #8b6a21;
+}
+
+.description{
+    justify-content: start;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    font-size: 1em;
+    color: #333;
+}
